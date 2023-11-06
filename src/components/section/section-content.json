@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_section_section_contents",
+  "info": {
+    "displayName": "section_content",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 5
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata",
+      "required": true
+    }
+  }
+}
